@@ -1,0 +1,323 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\PostProcessing">
+      <UniqueIdentifier>{4f9ae0ca-4dea-4bb0-b1e5-e12388b642e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Lighting">
+      <UniqueIdentifier>{a4681cd7-f0fd-46b4-9d72-6a5b9db12a56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FBX">
+      <UniqueIdentifier>{62c58aec-9a39-48b6-8a6e-40692c3064eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Animation">
+      <UniqueIdentifier>{debc7e2a-1474-484f-ac85-aa72e30ef2b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utilities">
+      <UniqueIdentifier>{a98e8170-a079-492f-ad1c-5ce0bd0b8675}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\PostProcessing">
+      <UniqueIdentifier>{bdcb81e1-2692-4ccc-8269-8b15bbd2fe7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Geometry">
+      <UniqueIdentifier>{0df8cb9f-0758-440d-9e0e-6433d4e1be67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Utilities">
+      <UniqueIdentifier>{d0dbd20f-fe92-4029-a84d-1e70e12de19b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Depth">
+      <UniqueIdentifier>{e78cac88-21d4-4dd4-93e4-70a0216f0275}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Depth">
+      <UniqueIdentifier>{ef7349dc-c9e4-46a1-875c-43504fb1b330}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Particles">
+      <UniqueIdentifier>{f69e5314-7f74-4f69-bec5-e2982bfe87f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Particles">
+      <UniqueIdentifier>{9d13bab7-f5e7-4bb4-93cc-4aa5b284e8d1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="App.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FBXScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FBXMesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PostProcessingPass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PostProcessingShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LitShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ColourGradingShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TonemappingShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PPTextureShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FBXSkeleton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FBXSkinnedMesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Line.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LineShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Animator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinnedShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DepthShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinDepthShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GaussianBlurShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BloomShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CombinationShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TessellationShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SquareMesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TessellatedSkinnedShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TessellationSkinDepthShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TessellationDepthShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ExtendedLight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticlesMesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticlesShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PostProcessingPass.h">
+      <Filter>Header Files\PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="PostProcessingShader.h">
+      <Filter>Header Files\PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="ColourGradingShader.h">
+      <Filter>Header Files\PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultShader.h">
+      <Filter>Header Files\Lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="ExtendedLight.h">
+      <Filter>Header Files\Lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="LitShader.h">
+      <Filter>Header Files\Lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Header Files\Lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="FBXMesh.h">
+      <Filter>Header Files\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="FBXScene.h">
+      <Filter>Header Files\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="TonemappingShader.h">
+      <Filter>Header Files\PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="FBXImportArgs.h">
+      <Filter>Header Files\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="PPTextureShader.h">
+      <Filter>Header Files\PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="FBXSkinnedMesh.h">
+      <Filter>Header Files\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="FBXSkeleton.h">
+      <Filter>Header Files\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Animator.h">
+      <Filter>Header Files\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="LineShader.h">
+      <Filter>Header Files\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Line.h">
+      <Filter>Header Files\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinnedShader.h">
+      <Filter>Header Files\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="AppGlobals.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="GaussianBlurShader.h">
+      <Filter>Header Files\PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="BloomShader.h">
+      <Filter>Header Files\PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="CombinationShader.h">
+      <Filter>Header Files\PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="SquareMesh.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="TessellatedSkinnedShader.h">
+      <Filter>Header Files\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="TessellationShader.h">
+      <Filter>Header Files\Lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinDepthShader.h">
+      <Filter>Header Files\Depth</Filter>
+    </ClInclude>
+    <ClInclude Include="DepthShader.h">
+      <Filter>Header Files\Depth</Filter>
+    </ClInclude>
+    <ClInclude Include="TessellationSkinDepthShader.h">
+      <Filter>Header Files\Depth</Filter>
+    </ClInclude>
+    <ClInclude Include="TessellationDepthShader.h">
+      <Filter>Header Files\Depth</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticlesMesh.h">
+      <Filter>Header Files\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticlesShader.h">
+      <Filter>Header Files\Particles</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="colourgrading_fs.hlsl">
+      <Filter>Resource Files\PostProcessing</Filter>
+    </FxCompile>
+    <FxCompile Include="postprocessing_fs.hlsl">
+      <Filter>Resource Files\PostProcessing</Filter>
+    </FxCompile>
+    <FxCompile Include="postprocessing_vs.hlsl">
+      <Filter>Resource Files\PostProcessing</Filter>
+    </FxCompile>
+    <FxCompile Include="tonemapping_fs.hlsl">
+      <Filter>Resource Files\PostProcessing</Filter>
+    </FxCompile>
+    <FxCompile Include="default_fs.hlsl">
+      <Filter>Resource Files\Geometry</Filter>
+    </FxCompile>
+    <FxCompile Include="default_vs.hlsl">
+      <Filter>Resource Files\Geometry</Filter>
+    </FxCompile>
+    <FxCompile Include="skinned_vs.hlsl">
+      <Filter>Resource Files\Geometry</Filter>
+    </FxCompile>
+    <FxCompile Include="line_fs.hlsl">
+      <Filter>Resource Files\Utilities</Filter>
+    </FxCompile>
+    <FxCompile Include="line_vs.hlsl">
+      <Filter>Resource Files\Utilities</Filter>
+    </FxCompile>
+    <FxCompile Include="gaussian_fs.hlsl">
+      <Filter>Resource Files\PostProcessing</Filter>
+    </FxCompile>
+    <FxCompile Include="bloom_fs.hlsl">
+      <Filter>Resource Files\PostProcessing</Filter>
+    </FxCompile>
+    <FxCompile Include="combine_fs.hlsl">
+      <Filter>Resource Files\PostProcessing</Filter>
+    </FxCompile>
+    <FxCompile Include="default_hs.hlsl">
+      <Filter>Resource Files\Geometry</Filter>
+    </FxCompile>
+    <FxCompile Include="default_ds.hlsl">
+      <Filter>Resource Files\Geometry</Filter>
+    </FxCompile>
+    <FxCompile Include="color_fs.hlsl">
+      <Filter>Resource Files\Utilities</Filter>
+    </FxCompile>
+    <FxCompile Include="skinned_tessellated_vs.hlsl">
+      <Filter>Resource Files\Geometry</Filter>
+    </FxCompile>
+    <FxCompile Include="depth_fs.hlsl">
+      <Filter>Resource Files\Depth</Filter>
+    </FxCompile>
+    <FxCompile Include="depth_vs.hlsl">
+      <Filter>Resource Files\Depth</Filter>
+    </FxCompile>
+    <FxCompile Include="skindepth_vs.hlsl">
+      <Filter>Resource Files\Depth</Filter>
+    </FxCompile>
+    <FxCompile Include="depth_ds.hlsl">
+      <Filter>Resource Files\Depth</Filter>
+    </FxCompile>
+    <FxCompile Include="tessellated_vs.hlsl">
+      <Filter>Resource Files\Geometry</Filter>
+    </FxCompile>
+    <FxCompile Include="particles_vs.hlsl">
+      <Filter>Resource Files\Particles</Filter>
+    </FxCompile>
+    <FxCompile Include="particles_gs.hlsl">
+      <Filter>Resource Files\Particles</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

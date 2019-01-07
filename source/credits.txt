@@ -1,0 +1,29 @@
+  == Resources ==
+Introduction to Mesh Skinning by NVidia: http://developer.download.nvidia.com/assets/gamedev/docs/skinning.pdf
+Unity source code: https://github.com/Unity-Technologies/UnityCsReference
+FBX SDK reference: http://help.autodesk.com/view/FBX/2018/ENU/
+How to work with FBX SDK: https://www.gamedev.net/articles/programming/graphics/how-to-work-with-fbx-sdk-r3582
+Loading resources in your DirectX game by Microsoft: https://docs.microsoft.com/en-us/windows/uwp/gaming/load-a-game-asset
+DirectX 11 reference: https://docs.microsoft.com/en-us/windows/desktop/direct3d11/d3d11-graphics-reference
+DirectX 9 reference: https://docs.microsoft.com/en-us/windows/desktop/direct3d9/dx9-graphics-reference
+sRGB Approximations for HLSL: http://chilliant.blogspot.com/2012/08/srgb-approximations-for-hlsl.html?m=1
+Academy Color Encoding System developer resources: https://github.com/ampas/aces-dev
+Zhang D., Zheng B. (2017) GPU-Based Post-Processing Color Grading Algorithms in Real-Time Rendering for Mobile Commerce Service User. In: Pan Z., Cheok A., Müller W., Zhang M. (eds) Transactions on Edutainment XIII. Lecture Notes in Computer Science, vol 10092. Springer, Berlin, Heidelberg
+Computer Animation: http://www.cs.uu.nl/docs/vakken/mcanim/slides/mcanim03.pdf
+Animation in the "Dawn" demo by NVidio: http://developer.download.nvidia.com/books/HTML/gpugems/gpugems_ch04.html
+DirectXMath Programming guide: https://docs.microsoft.com/en-us/windows/desktop/dxmath/ovw-xnamath-progguide
+The Rendering of Inside Playdead at GDC2016: https://www.gdcvault.com/play/1023002/Low-Complexity-High-Fidelity-INSIDE
+Bloom: https://learnopengl.com/Advanced-Lighting/Bloom
+Normal mapping Wikipedia article: https://en.wikipedia.org/wiki/Normal_mapping
+Bump mapping with GLSL: http://fabiensanglard.net/bumpMapping/index.php
+Tessellation, Bill Bilodeau: http://twvideo01.ubm-us.net/o1/vault/gdc10/slides/Bilodeau_Bill_Direct3D11TutorialTessellation.pdf
+Percentage closer filtering by NVidia: https://developer.nvidia.com/gpugems/GPUGems/gpugems_ch11.html
+
+  == Additional dependencies ==
+Autodesk's FBX SDK 2018
+
+  == Assets ==
+Urban debris: https://free3d.com/3d-model/urban-debris-85706.html
+Robo Welder: https://opengameart.org/content/robo-welder
+Street lamp: https://www.turbosquid.com/FullPreview/Index.cfm/ID/492286
+Car: https://www.turbosquid.com/FullPreview/Index.cfm/ID/633243
